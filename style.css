@@ -4,8 +4,9 @@ body{
     
 }
 div.container{
+    position:fixed;
     top:0;
-    width:356px;
+    width:100%;
     overflow:hidden;
     max-height:100vh;
 }
