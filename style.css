@@ -1,0 +1,121 @@
+body{
+    width:100%;
+    max-height:100vh;
+    
+}
+div.container{
+    top:0;
+    width:356px;
+    overflow:hidden;
+    max-height:100vh;
+}
+.wrapper{
+    display:grid;
+}
+.wrapper2{
+    display:none;
+}
+.wrapper2, .wrapper{
+    width:90%;
+    padding-bottom:20px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:10px;
+}
+.wrapper.active{
+    display:none;
+}
+.wrapper2.active{
+    display:grid;
+}
+div.area{
+    width: 100%;
+    height: 340px;
+}
+textarea.form{
+    border-radius:5px ;
+    background: transparent;
+    //border:none;
+    outline:none;
+    resize:none;
+    text-align: right;
+    padding-top:85px;
+    padding-rright: 10px;
+    color:white;
+    font-size: 40px;
+    font-weight:light;
+    justify-content:flex-end;
+    box-shadow:-5px -5px 15px rgba(0,0,0,0.1),
+                5px 5px 15px rgba(0,0,0,0.2);
+      }
+button.btn-lg{
+    border:none;
+    outline:none;
+    font-size:25px;
+    font-weight:600;
+    height:50px;
+    box-shadow:-8px -8px 10px rgba(0,0,0,0.1),
+                8px 8px 10px rgba(0,0,0,0.2);
+    background: transparent;
+    color:white;
+    text-align:center;
+    width:75px;
+    transition:.2s;
+}
+button.btn-lg:hover{
+border:1px solid aqua;
+transition:.2s;
+    box-shadow:2px 2px 9px rgba(1,1,0,0.1),
+                -2px -2px 9px rgba(1,1,0,0.1);
+}
+div.head {
+position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-weight:bold;
+    font-size:30px;
+    position: absolute;
+    right:10px;
+    padding:5px 15px;
+    border-radius: 50%;
+    box-shadow:-8px -8px 10px rgba(0,0,0,0.1),
+                0px 0px 2px red;
+}
+h3.text-center{
+    color: blue;
+    text-shadow:0 0 1px red,
+                1px 1px 2px lightblue,
+                2px 2px 3px orange;
+    font-weight:bold;
+    text-align: center ;
+    font-size:30px;
+}
+#cos.tin,
+#tan.tin,
+#sine.tin{
+    font-size: 20px;
+}
+.invert.hover{
+transition:2s;
+    border:1px solid aqua;
+    opacity: 0.6;
+    filter:hue-rotate(180deg);
+    transform:scale(20%) rotate(360deg);
+}
+.invert{
+    transition:2s;
+    
+    animation:zoom 1s ease 2s infinite;
+}
+@keyframes zoom{
+    0%{
+        transform:scale(95%);
+        filter:hue-rotate(260deg);
+    }
+    100%{
+        transform:scale(100%);
+        filter:hue-rotate(0deg);
+    }
+}
