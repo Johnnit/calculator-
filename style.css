@@ -13,6 +13,7 @@ div.container{
     width:100%;
     overflow:hidden;
     height:100vh;
+    padding-bottom:10px;
 }
 .wrapper{
     display:grid;
@@ -26,7 +27,6 @@ div.container{
     grid-template-columns:1fr 1fr 1fr 1fr;
     gap:10px;
     margin-top:50px;
-    margin-bottom:10px;
 }
 .wrapper.active{
     display:none;
