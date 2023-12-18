@@ -19,7 +19,7 @@ div.container{
     display:none;
 }
 .wrapper2, .wrapper{
-    width:90%;
+    width:100%;
     padding-bottom:20px;
     grid-template-columns:1fr 1fr 1fr 1fr;
     gap:10px;
@@ -56,13 +56,13 @@ button.btn-lg{
     outline:none;
     font-size:25px;
     font-weight:600;
-    height:50px;
+    height:100px;
     box-shadow:-8px -8px 10px rgba(0,0,0,0.1),
                 8px 8px 10px rgba(0,0,0,0.2);
     background: transparent;
     color:white;
     text-align:center;
-    width:75px;
+    width:120px;
     transition:.2s;
 }
 button.btn-lg:hover{
@@ -110,7 +110,7 @@ transition:2s;
 }
 .invert{
     transition:2s;
-    
+    font-size:large;
     animation:zoom 1s ease 2s infinite;
 }
 @keyframes zoom{
