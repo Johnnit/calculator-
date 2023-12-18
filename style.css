@@ -35,7 +35,8 @@ div.container{
 }
 div.area{
     width: 100%;
-    height: 940px;
+    height: 720px;
+    margin-top:20px;
 }
 textarea.form{
     width:100%;
@@ -79,6 +80,7 @@ position:relative;
     display:flex;
     align-items: center;
     justify-content: center;
+    margin-top:20px;
 }
 span{
     font-weight:bold;
