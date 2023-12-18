@@ -109,7 +109,7 @@ h3.text-center{
 #cos.tin,
 #tan.tin,
 #sine.tin{
-    font-size:60px;
+    font-weight:light;
 }
 .invert.hover{
 transition:2s;
