@@ -13,7 +13,7 @@ div.container{
     width:100%;
     overflow:hidden;
     height:100vh;
-    padding:20px;
+    padding:10px;
 }
 .wrapper{
     display:grid;
@@ -104,12 +104,12 @@ h3.text-center{
                 2px 2px 3px orange;
     font-weight:bold;
     text-align: center;
-    font-size:60px;
+    font-size:80px;
 }
 #cos.tin,
 #tan.tin,
 #sine.tin{
-    font-size:90px;
+    font-size:80px;
 }
 .invert.hover{
 transition:2s;
