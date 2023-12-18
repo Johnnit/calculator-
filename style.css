@@ -2,15 +2,16 @@ body{
     width:100%;
     min-height:100vh;
     display:flex;
+    top:50%;
+    left:50%;
     align-items: center;
     justify-content: center;
 }
 div.container{
     position:fixed;
-    top:0;
     width:100%;
     overflow:hidden;
-    max-height:100vh;
+    height:100vh;
 }
 .wrapper{
     display:grid;
@@ -38,13 +39,12 @@ textarea.form{
     width:100%;
     border-radius:5px ;
     background: transparent;
-    //border:none;
     outline:none;
     resize:none;
     text-align: right;
     padding-top:85px;
-    padding-rright: 10px;
-    color:white;
+    padding-right: 10px;
+    color: white;
     font-size: 40px;
     font-weight:light;
     justify-content:flex-end;
@@ -56,13 +56,13 @@ button.btn-lg{
     outline:none;
     font-size:25px;
     font-weight:600;
-    height:100px;
+    height:150px;
     box-shadow:-8px -8px 10px rgba(0,0,0,0.1),
                 8px 8px 10px rgba(0,0,0,0.2);
     background: transparent;
     color:white;
     text-align:center;
-    width:120px;
+    width:300px;
     transition:.2s;
 }
 button.btn-lg:hover{
