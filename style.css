@@ -87,6 +87,7 @@ span{
     font-size:30px;
     position: absolute;
     right:10px;
+    padding:0 10px;
     transition:2s;
     font-size:80px;
     animation:zoom 1s ease 2s infinite;
@@ -106,7 +107,7 @@ h3.text-center{
 #cos.tin,
 #tan.tin,
 #sine.tin{
-    font-size: 170px;
+    font-size: 90px;
 }
 .invert.hover{
 transition:2s;
