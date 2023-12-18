@@ -4,6 +4,7 @@ body{
     display:flex;
     top:50%;
     left:50%;
+    transform:translate(-50% -50%);
     align-items: center;
     justify-content: center;
 }
@@ -24,6 +25,7 @@ div.container{
     padding-bottom:20px;
     grid-template-columns:1fr 1fr 1fr 1fr;
     gap:10px;
+    matgin-top:50px;
 }
 .wrapper.active{
     display:none;
@@ -42,7 +44,7 @@ textarea.form{
     outline:none;
     resize:none;
     text-align: right;
-    padding-top:85px;
+   // padding-top:85px;
     padding-right: 10px;
     color: white;
     font-size: 40px;
@@ -79,7 +81,7 @@ position:relative;
 }
 span{
     font-weight:bold;
-    font-size:30px;
+    font-size:60%;
     position: absolute;
     right:10px;
     padding:5px 15px;
@@ -93,8 +95,8 @@ h3.text-center{
                 1px 1px 2px lightblue,
                 2px 2px 3px orange;
     font-weight:bold;
-    text-align: center ;
-    font-size:30px;
+    text-align: center;
+    font-size:60%;
 }
 #cos.tin,
 #tan.tin,
