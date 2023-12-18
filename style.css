@@ -88,7 +88,7 @@ span{
     position: absolute;
     right:10px;
     padding:15px;
-    border-radius: 50%;
+    border-radius: 30%;
     box-shadow:-8px -8px 10px rgba(0,0,0,0.1),
                 0px 0px 2px red;
 }
@@ -104,7 +104,7 @@ h3.text-center{
 #cos.tin,
 #tan.tin,
 #sine.tin{
-    font-size: 20px;
+    font-size: 50px;
 }
 .invert.hover{
 transition:2s;
