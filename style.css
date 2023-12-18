@@ -64,7 +64,7 @@ button.btn-lg{
     background: transparent;
     color:white;
     text-align:center;
-    width:300px;
+    width:25%;
     transition:.2s;
 }
 button.btn-lg:hover{
