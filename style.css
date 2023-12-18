@@ -13,7 +13,7 @@ div.container{
     width:100%;
     overflow:hidden;
     height:100vh;
-    padding:5px;
+    padding-bottom:10px;
 }
 .wrapper{
     display:grid;
