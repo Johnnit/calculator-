@@ -45,7 +45,7 @@ textarea.form{
     outline:none;
     resize:none;
     text-align: right;
-   // padding-top:85px;
+   padding-top:85px;
     padding-right: 10px;
     color: white;
     font-size: 40px;
@@ -58,7 +58,7 @@ button.btn-lg{
     border:none;
     outline:none;
     font-size:25px;
-    height:200px;
+    height:300px;
     font-weight:600;
     padding:15px 0;
     box-shadow:-8px -8px 10px rgba(0,0,0,0.1),
@@ -97,7 +97,7 @@ h3.text-center{
                 2px 2px 3px orange;
     font-weight:bold;
     text-align: center;
-    font-size:30px;
+    font-size:60px;
 }
 #cos.tin,
 #tan.tin,
