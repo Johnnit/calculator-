@@ -35,7 +35,7 @@ div.container{
 }
 div.area{
     width: 100%;
-    height: 720px;
+    height: 420px;
     margin-top:20px;
 }
 textarea.form{
@@ -58,7 +58,7 @@ textarea.form{
 button.btn-lg{
     border:none;
     outline:none;
-    font-size:120px;
+    font-size:70px;
     height:200px;
     font-weight:700;
     padding:15px 0;
