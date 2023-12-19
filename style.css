@@ -1,4 +1,5 @@
-body{
+@media screen and (max-width:360px){
+    body{
     width:100%;
     min-height:100vh;
     display:flex;
@@ -129,8 +130,8 @@ transition:2s;
         filter:hue-rotate(0deg);
     }
 }
-
-@media only screen and (min-width: 780px){
+    }
+@media  screen and (min-width: 780px){
     body{
     background: blue;
     display:flex;
@@ -143,5 +144,7 @@ transition:2s;
     div.container{
         width:380px;
     }
+        
+
     }
     
