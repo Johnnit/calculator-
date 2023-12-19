@@ -4,7 +4,7 @@ body{
     display:flex;
     top:50%;
     left:50%;
-    transform:translate(-50% -50%);
+    transform:translate(-50%, -50%);
     align-items: center;
     justify-content: center;
 }
@@ -54,7 +54,7 @@ textarea.form{
     font-weight:bold;
     justify-content:flex-end;
     box-shadow:-5px -5px 15px rgba(0,0,0,0.1),
-                5px 5px 15px rgba(0,0,0,0.2);
+                5px 5px 15px rgba(0,0,0,0.3);
       }
 button.btn-lg{
     border:none;
@@ -64,11 +64,11 @@ button.btn-lg{
     font-weight:700;
     padding:7px 0;
     box-shadow:-8px -8px 10px rgba(0,0,0,0.1),
-                8px 8px 10px rgba(0,0,0,0.2);
+                8px 8px 10px rgba(0,0,0,0.3);
     background: transparent;
     color:white;
     text-align:center;
-    transition:.2s;
+    transition:2s;
 }
 button.btn-lg:hover{
 border:1px solid aqua;
@@ -120,7 +120,7 @@ transition:2s;
     }
 @keyframes zoom{
     0%{
-        transform:scale(95%);
+        transform:scale(85%);
         filter:hue-rotate(260deg);
     }
     100%{
