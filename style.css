@@ -136,7 +136,7 @@ transition:2s;
     justify-content: center;
     align-items: center;
     left: 50%;
-        transform:translate(-50%,-50%);
+    transform:translate(-50% -50%);
     }
     div.container{
         width:380px;
