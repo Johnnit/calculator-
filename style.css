@@ -12,7 +12,6 @@ div.container{
     position:fixed;
     width:100%;
     overflow:hidden;
-    height:100vh;
     padding-bottom:10px;
 }
 .wrapper{
@@ -73,7 +72,7 @@ button.btn-lg{
 }
 button.btn-lg:hover{
 border:1px solid aqua;
-transition:.2s;
+transition:2s;
     box-shadow:2px 2px 9px rgba(1,1,0,0.1),
                 -2px -2px 9px rgba(1,1,0,0.1);
 }
