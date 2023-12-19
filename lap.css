@@ -1,0 +1,14 @@
+media only screen (max-width: 1240px) and (min-width: 780px){
+    body{
+    background: blue;
+    display:flex;
+    top:50%;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    }
+    div.container{
+        width:360px;
+    }
+}
