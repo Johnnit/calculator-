@@ -128,7 +128,7 @@ transition:2s;
         filter:hue-rotate(0deg);
     }
 }
-@media only screen and (max-width: 1280px){
+@media only screen and (min-width: 768px){
     body{
     background: blue;
     display:flex;
